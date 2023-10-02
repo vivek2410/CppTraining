@@ -43,12 +43,17 @@ int main(){
         );
 
         std::cout << *ac1;
+
+        DebitCard* db = new DebitCard(201, "6781 91");
+        Account* ac2 = new Account(db, "VivekSai");
+
+        std::cout<<*ac2;
 }
 
  /*
 int n1=10;//stack(aotomatic storage)
 int* n1 = new int(10);//heap
-int&n2 = n1;//n2 isa reference to n1(alias)
+int&n2 = n1; //n2 is a reference to n1(alias)
 //card is a stack-allocated debitcard instance
 DebitCard card; //stack(automatic storage)
 //card is a debit card pointer to heap allocated debir ccard instance
