@@ -6,5 +6,7 @@ int main(){
     Car* arr[3];
     CreateCars(arr);
 
-    std::cout<<AverageofPrize(arr);
+    std::cout<<"Average is: "<< AverageofPrize(arr)<<"\n";
+
+    CallCalculateTax(arr);
 }

@@ -12,5 +12,6 @@ Car::Car(std::string _id, std::string _name, VehicleType Vtype, CarType Ctype)
 
 float Car::CalculateTax()
 {
-    return 0.0f * prize();
+    return 11.8f * prize();
 }
+

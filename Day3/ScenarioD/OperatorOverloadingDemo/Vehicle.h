@@ -42,7 +42,7 @@ public:
     float operator+ (Vehicle e2){
         //current object's price and passed objects's price
         return this->price()+e2.price();
-    }
+    } 
     float operator+ (Vehicle* e2){
         //current object's price and passed objects's price
         return this->price()+ e2->price();

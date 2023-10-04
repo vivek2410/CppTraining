@@ -1,5 +1,7 @@
 #include "Car.h"
 #include "Functionalities.h"
+#include "CarType.h"
+#include "Vehicle.h"
 
 int main(){
     //3 locations reserved; each location can store 8 bytes(address)

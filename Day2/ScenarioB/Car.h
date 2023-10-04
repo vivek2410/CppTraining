@@ -19,11 +19,10 @@ public:
         <<"is destroyed\n";
     }
 
-    CarType carType() const { 
-        return _car_type;
-    }
+    CarType carType() const;
 
     float CalculateTax() override;
+  
 
 
 };
