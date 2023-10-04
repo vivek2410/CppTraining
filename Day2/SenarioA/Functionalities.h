@@ -12,7 +12,7 @@ Function to create 3 objects on the heap and store their address
 void CreateObjects(Vehicle* container[3]);
 
 /*
- function to
+ function to print the averages
 */
 
 float AveragePrice(Vehicle* container[3]);

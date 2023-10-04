@@ -17,7 +17,7 @@ int main(){
 
     PointerPractice* p1 = new PointerPractice();
 
-   // std::cout<<"";
+    std::cout<<i<<"\n";
     std::cout << p1->k <<"\n";
     std::cout <<"value in i is "<< i <<"\n";
     std::cout <<"address of &i is "<< &i <<"\n";

@@ -4,9 +4,9 @@
 
 void CreateObjects(Vehicle *container[3])
 {
-    container[0] = new Vehicle("v101", "Maruthi", Type::CAR, 870000.0f);
-    container[1] = new Vehicle("v102", "Toyota", Type::BIKE, 870000.0f);
-    container[2] = new Vehicle("v103", "Honada", Type::OTHER, 870000.0f);   
+    container[0] = new Vehicle("v101", "Maruthi", Type::CAR, 87.0f);
+    container[1] = new Vehicle("v102", "Toyota", Type::BIKE, 870.0f);
+    container[2] = new Vehicle("v103", "Honada", Type::OTHER, 87.0f);   
 }
 
 /*
@@ -25,7 +25,7 @@ float AveragePrice(Vehicle *container[3])
     for(int i=0; i<3; i++){
         //total is previous total added with price value
         // taken from address at i position
-        total += (container[i])->price();
+        total += (*container[i]).price();
     }
     return total;
 }
