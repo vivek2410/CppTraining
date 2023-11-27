@@ -43,7 +43,7 @@ int main(){
 
     //number 202 is deleted <-- cause we have performed delete operation for s2 first
     //number 103 is deleted <-- 103 is deleted after 202 but not 101 .. 
-                                //cause stack follows First in first out rulee
+                                //cause stack follows Last in first out rulee
     //number 101 is deleted <--- Lastly 101 is deleted
     
     Student arr[2] = {s1, s3}; //array of stack allocated Student objects
